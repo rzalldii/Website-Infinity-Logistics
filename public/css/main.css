@@ -537,32 +537,6 @@ h6 {
   padding-top: 50px;
 }
 
-.footer .social-links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  color: var(--default-color);
-  font-size: 16px;
-  color: color-mix(in srgb, transparent 20%);
-  margin-right: 10px;
-  transition: 0.3s;
-}
-
-.footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.footer .footer-logo img {
-  margin-top: 20px;
-  max-width: 200px;
-  height: auto;
-}
-
 .footer h3 {
   font-size: 24px;
   font-weight: 600;
@@ -579,8 +553,35 @@ h6 {
   color: var(--heading-color);
 }
 
-.footer p {
+.footer .footer-about a {
   color: var(--default-color);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer .footer-about a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--default-color);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.footer .footer-about a:hover::after {
+  transform: scaleX(1);
+}
+
+.footer .footer-about p {
+  margin-bottom: 5px;
+}
+
+.footer .footer-about i {
+  color: var(--accent-color);
 }
 
 .footer .footer-links {
@@ -624,21 +625,42 @@ h6 {
   letter-spacing: 2px;
 }
 
-.footer .footer-contact p {
-  margin-bottom: 5px;
-}
-
-.footer .footer-about i {
-  color: var(--accent-color);
-}
-
 .footer .copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 25px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .copyright p {
   margin-bottom: 0;
+}
+
+.footer .social-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  color: var(--default-color);
+  font-size: 16px;
+  color: color-mix(in srgb, transparent 20%);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
