@@ -86,8 +86,8 @@
                         <li><i class="bi bi-chevron-right"></i><a href="/#about">About</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#services">Services</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#contact">Contact</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="/terms-and-conditions">Terms and Conditions</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy Policy</a></li>
+                        <!-- <li><i class="bi bi-chevron-right"></i> <a href="/terms-and-conditions">Terms and Conditions</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy Policy</a></li> -->
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-3 footer-links">
@@ -149,6 +149,24 @@
             waWidget.classList.remove('show');
             }
         });
+    </script>
+    <script>
+        document.addEventListener('copy', function(e) { e.preventDefault(); });
+        document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+        document.addEventListener('mousedown', function(e) { e.preventDefault(); });
+        document.addEventListener('touchstart', function(e) { e.preventDefault(); });
+        document.addEventListener('selectstart', function(e) { e.preventDefault(); });
+        document.addEventListener('dragstart', function(e) { e.preventDefault(); });
+        document.onkeydown = function(e) {
+            if (e.keyCode === 123 ||
+                (e.ctrlKey && e.keyCode === 65) ||
+                (e.ctrlKey && e.keyCode === 80) ||
+                (e.ctrlKey && e.keyCode === 83) ||
+                (e.ctrlKey && e.keyCode === 85) ||
+                (e.ctrlKey && e.shiftKey && ['C','I','J'].includes(e.key.toUpperCase()))) {
+            return false;
+            }
+        };
     </script>
 </body>
 
