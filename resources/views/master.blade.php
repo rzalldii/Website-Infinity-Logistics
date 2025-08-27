@@ -29,7 +29,7 @@
 
 <!-- WhatsApp Floating Chat Widget -->
 <div class="wa-hover-zone">
-    <a href="https://wa.me/6282233658035" class="wa-widget" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://wa.me/6281330229112?text=Hello%2C%20I%20am%20interested%20in%20the%20services%20offered%20by%20Infinity%20Logistics%20Indonesia.%20Can%20I%20get%20more%20information%20about%20your%20services%3F" class="wa-widget" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
 </div>
 
 <body class="index-page">
