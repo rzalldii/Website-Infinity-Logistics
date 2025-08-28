@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="msvalidate.01" content="87838AA91B500CE846EA59FACB669B69" />
     <title>@yield('title')</title>
     @yield('meta')
 

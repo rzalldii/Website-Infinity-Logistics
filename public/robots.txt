@@ -1,2 +1,11 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# Lindungi area sensitif (kalau tidak ada, biarkan saja)
+Disallow: /admin
+Disallow: /login
+Disallow: /register
+Disallow: /password
+Disallow: /cart
+
+Sitemap: https://infinity-sby.com/sitemap.xml
