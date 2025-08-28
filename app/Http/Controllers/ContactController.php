@@ -45,8 +45,7 @@ class ContactController extends Controller
         $subscribe = $request->has('subscribe') ? 'Yes' : 'No';
 
         Mail::send([], [], function ($message) use ($validated, $subscribe) {
-            $message->to('cssurabaya@infinity-sby.com')
-            // $message->to('marketing1@infinity-sby.com')
+            $message->to('marketing1@infinity-sby.com')
                     ->subject('FORM CONTACT US')
                     ->text( 'Subscribe Newsletter : ' . $subscribe . "\n\n" .
                             'Name : ' . $validated['name'] . "\n" .

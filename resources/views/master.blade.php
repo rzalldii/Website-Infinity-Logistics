@@ -89,8 +89,8 @@
                         <li><i class="bi bi-chevron-right"></i><a href="/#about">About</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#services">Services</a></li>
                         <li><i class="bi bi-chevron-right"></i><a href="/#contact">Contact</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="/terms-and-conditions">Terms and Conditions</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy Policy</a></li>
+                        <!-- <li><i class="bi bi-chevron-right"></i> <a href="/terms-and-conditions">Terms and Conditions</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="/privacy-policy">Privacy Policy</a></li> -->
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-3 footer-links">
