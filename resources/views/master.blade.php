@@ -142,34 +142,6 @@
 
     <!-- Main JS File -->
     <script src="<?php echo url('/'); ?>/js/main.js"></script>
-
-    <script>
-        const waWidget = document.querySelector('.wa-widget');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 100) {
-            waWidget.classList.add('show');
-            } else {
-            waWidget.classList.remove('show');
-            }
-        });
-    </script>
-    <script>
-        document.addEventListener('copy', function(e) { e.preventDefault(); });
-        document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
-        document.addEventListener('touchstart', function(e) { e.preventDefault(); });
-        document.addEventListener('selectstart', function(e) { e.preventDefault(); });
-        document.addEventListener('dragstart', function(e) { e.preventDefault(); });
-        document.onkeydown = function(e) {
-            if (e.keyCode === 123 ||
-                (e.ctrlKey && e.keyCode === 65) ||
-                (e.ctrlKey && e.keyCode === 80) ||
-                (e.ctrlKey && e.keyCode === 83) ||
-                (e.ctrlKey && e.keyCode === 85) ||
-                (e.ctrlKey && e.shiftKey && ['C','I','J'].includes(e.key.toUpperCase()))) {
-            return false;
-            }
-        };
-    </script>
 </body>
 
 </html>

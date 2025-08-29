@@ -1,10 +1,3 @@
-/**
-* Template Name: eNno
-* Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 (function() {
   "use strict";
@@ -205,5 +198,30 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+
+  const waWidget = document.querySelector('.wa-widget');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      waWidget.classList.add('show');
+    } else {
+      waWidget.classList.remove('show');
+    }
+  });
+
+  document.addEventListener('copy', function(e) { e.preventDefault(); });
+  document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+  document.addEventListener('touchstart', function(e) { e.preventDefault(); });
+  document.addEventListener('selectstart', function(e) { e.preventDefault(); });
+  document.addEventListener('dragstart', function(e) { e.preventDefault(); });
+  document.onkeydown = function(e) {
+    if (e.key === 123 ||
+      (e.ctrlKey && e.key === 65) ||
+      (e.ctrlKey && e.key === 80) ||
+      (e.ctrlKey && e.key === 83) ||
+      (e.ctrlKey && e.key === 85) ||
+      (e.ctrlKey && e.shiftKey && ['C','I','J'].includes(e.key.toUpperCase()))) {
+    return false;
+    }
+  };
 
 })();
