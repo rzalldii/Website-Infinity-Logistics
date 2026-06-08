@@ -12,7 +12,7 @@
             <button class="wa-popup-close" id="waClose" aria-label="Close">&times;</button>
         </div>
         <div class="wa-popup-agents">
-            <a :href="'https://wa.me/6282221190306?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
+            <a :href="'https://wa.me/6281553602916?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
                 class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
                 <div class="wa-agent-info">
                     <span>FREIGHT FORWARDING</span>
