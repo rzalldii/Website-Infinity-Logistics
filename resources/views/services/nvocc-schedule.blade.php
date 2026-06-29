@@ -19,7 +19,7 @@
         <!-- NVOCC Schedule Section -->
         <section id="nvocc-schedule" class="nvocc-schedule section">
             <div class="container section-title">
-                <h2 class="text-uppercase" x-text="translations.messages.june"></h2>
+                <h2 class="text-uppercase" x-text="translations.messages.july"></h2>
             </div>
             <div class="container">
                 <div class="table-responsive">
@@ -43,50 +43,17 @@
                                         GSL
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        YM INTERACTION
-                                    </div>
-                                </td>
-                                <td class="align-middle">291 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        01 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        05 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">05 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">06 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">09 <span x-text="translations.messages.june"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
                                         INFERRO
                                     </div>
                                 </td>
-                                <td class="align-middle">042 W</td>
+                                <td class="align-middle">043 W</td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
                                         15:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        05 <span x-text="translations.messages.june"></span>
+                                        26 <span x-text="translations.messages.june"></span>
                                     </div>
                                 </td>
                                 <td>
@@ -95,45 +62,12 @@
                                         09:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        09 <span x-text="translations.messages.june"></span>
+                                        30 <span x-text="translations.messages.june"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">09 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">10 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">13 <span x-text="translations.messages.june"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        MTT SANDAKAN
-                                    </div>
-                                </td>
-                                <td class="align-middle">076 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        14 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        18 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">18 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">19 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">22 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">30 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">01 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">04 <span x-text="translations.messages.july"></span></td>
                             </tr>
                             <tr>
                                 <td>
@@ -152,7 +86,7 @@
                                         15:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        21 <span x-text="translations.messages.june"></span>
+                                        28 <span x-text="translations.messages.june"></span>
                                     </div>
                                 </td>
                                 <td>
@@ -161,78 +95,111 @@
                                         09:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        25 <span x-text="translations.messages.june"></span>
+                                        02 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">25 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">26 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">29 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">02 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">03 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">06 <span x-text="translations.messages.july"></span></td>
                             </tr>
                             <tr>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
+                                        GSL
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        CELSIUS EINDHOVEN
+                                        MTT SANDAKAN
                                     </div>
                                 </td>
-                                <td class="align-middle">031 W</td>
+                                <td class="align-middle">077 W</td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
+                                        15:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        27 <span x-text="translations.messages.may"></span>
+                                        10 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
+                                        09:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        31 <span x-text="translations.messages.may"></span>
+                                        14 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">01 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">02 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">08 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">14 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">15 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">18 <span x-text="translations.messages.july"></span></td>
                             </tr>
                             <tr>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
+                                        GSL
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        HALLEY
+                                        YM INTERACTION
                                     </div>
                                 </td>
-                                <td class="align-middle">013 W</td>
+                                <td class="align-middle">293 W</td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
+                                        15:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        07 <span x-text="translations.messages.june"></span>
+                                        17 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
+                                        09:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        11 <span x-text="translations.messages.june"></span>
+                                        21 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">12 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">13 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">19 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">22 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">25 <span x-text="translations.messages.july"></span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        GSL
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        INFERRO
+                                    </div>
+                                </td>
+                                <td class="align-middle">044 W</td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        15:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        17 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        09:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        21 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">22 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">25 <span x-text="translations.messages.july"></span></td>
                             </tr>
                             <tr>
                                 <td>
@@ -251,7 +218,7 @@
                                         08:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        10 <span x-text="translations.messages.june"></span>
+                                        26 <span x-text="translations.messages.june"></span>
                                     </div>
                                 </td>
                                 <td>
@@ -260,12 +227,111 @@
                                         03:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        14 <span x-text="translations.messages.june"></span>
+                                        30 <span x-text="translations.messages.june"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">15 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">16 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">22 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">30 <span x-text="translations.messages.june"></span></td>
+                                <td class="align-middle">01 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">08 <span x-text="translations.messages.july"></span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        COSCO
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        HALLEY
+                                    </div>
+                                </td>
+                                <td class="align-middle">014 W</td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        08:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        06 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        03:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        10 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td class="align-middle">10 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">11 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">17 <span x-text="translations.messages.july"></span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        COSCO
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        XIN YANG PU
+                                    </div>
+                                </td>
+                                <td class="align-middle">204 W</td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        08:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        09 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        03:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        13 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td class="align-middle">13 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">14 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">20 <span x-text="translations.messages.july"></span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        COSCO
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        XIN HANG ZHOU
+                                    </div>
+                                </td>
+                                <td class="align-middle">216 W</td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        08:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        16 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span
+                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                        03:00
+                                    </span>
+                                    <div class="margin-10px-top font-size14">
+                                        20 <span x-text="translations.messages.july"></span>
+                                    </div>
+                                </td>
+                                <td class="align-middle">20 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">27 <span x-text="translations.messages.july"></span></td>
                             </tr>
                             <tr>
                                 <td>
@@ -277,14 +343,14 @@
                                         CELSIUS EINDHOVEN
                                     </div>
                                 </td>
-                                <td class="align-middle">032 W</td>
+                                <td class="align-middle">033 W</td>
                                 <td>
                                     <span
                                         class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
                                         08:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        24 <span x-text="translations.messages.june"></span>
+                                        23 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
                                 <td>
@@ -293,12 +359,12 @@
                                         03:00
                                     </span>
                                     <div class="margin-10px-top font-size14">
-                                        28 <span x-text="translations.messages.june"></span>
+                                        27 <span x-text="translations.messages.july"></span>
                                     </div>
                                 </td>
-                                <td class="align-middle">29 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">30 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">06 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">27 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">28 <span x-text="translations.messages.july"></span></td>
+                                <td class="align-middle">03 <span x-text="translations.messages.august"></span></td>
                             </tr>
                         </tbody>
                     </table>

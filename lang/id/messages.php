@@ -7,6 +7,7 @@ return [
     'services_title' => 'Layanan | Infinity Logistics Indonesia',
     'services_meta_description' => 'Jelajahi layanan logistik kami, termasuk NVOCC, freight forwarding, domestic forwarding, customs clearance, project logistics, solusi flexitank, dan pergudangan.',
     'news_title' => 'Berita | Infinity Logistics Indonesia',
+    'news_meta_description' => 'Dapatkan berita terbaru, wawasan, dan pengumuman perusahaan dari Infinity Logistics Indonesia.',
     'contact_title' => 'Kontak | Infinity Logistics Indonesia',
     'contact_meta_description' => 'Hubungi Infinity Logistics Indonesia untuk kebutuhan freight forwarding, NVOCC, customs clearance, pergudangan, dan layanan logistik lainnya di Surabaya.',
     'nvocc_title' => 'NVOCC - Layanan | Infinity Logistics Indonesia',
@@ -46,12 +47,12 @@ return [
     'email' => 'Email',
     'useful_links' => 'Tautan Berguna',
     'follow_us' => 'Ikuti Kami',
-    'follow_desc' => 'Tetap terinformasi dengan pembaruan, penawaran, dan berita perusahaan terbaru dari tim kami',
+    'follow_desc' => 'Tetap terinformasi dengan pembaruan, penawaran, dan berita perusahaan terbaru dari tim kami.',
 
-    'head_office_address' => 'Jl. Jendral Basuki Rahmad No. 122, Plaza BRI, Lantai 12, Suite 1206, Kota Surabaya, Jawa Timur, Indonesia',
-    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Kota Surabaya, Jawa Timur, Indonesia',
-    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Kota Semarang, Jawa Tengah, Indonesia',
-    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Kota Samarinda, Kalimantan Timur, Indonesia',
+    'head_office_address' => 'Jl. Basuki Rahmat No. 122, Plaza BRI, Lantai 12, Suite 1206, Surabaya, Jawa Timur, Indonesia',
+    'warehouse_address' => 'Jl. Pergudangan Margomulyo Permai J10, Surabaya, Jawa Timur, Indonesia',
+    'warehouse_address2' => 'Jl. Madukoro Raya C9, Tawangmas, Semarang, Jawa Tengah, Indonesia',
+    'warehouse_address3' => 'Jl. Sukorejo 8, Lempake, Samarinda, Kalimantan Timur, Indonesia',
 
     'hero_title' => 'Dekade Berikutnya. Gelombang Berikutnya.',
     'hero_subtitle' => 'DI INFINITY, KAMI BERCITA-CITA MELOMPAT KE TINGKAT PENCAPAIAN BERIKUTNYA, DARI BAIK MENJADI UNGGUL',
@@ -109,7 +110,7 @@ return [
     'read_more_services' => 'Jelajahi Layanan Kami',
 
     'ocean_freight' => 'Layanan Angkutan Laut',
-    'ocean_freight_description' => 'Infinity Logistics Indonesia menyediakan solusi angkutan laut yang hemat biaya dan andal untuk pengiriman dalam berbagai skala, mulai dari consignments berukuran kecil hingga muatan kontainer penuh. Kami mengutamakan penanganan kargo yang aman dan mendukung pengiriman ke tujuan dengan baik, baik untuk rute domestik maupun internasional. Layanan angkutan laut kami didukung oleh mitra yang tepercaya.',
+    'ocean_freight_description' => 'Infinity Logistics Indonesia menyediakan solusi angkutan laut yang hemat biaya dan andal untuk pengiriman dalam berbagai skala, mulai dari kiriman berukuran kecil hingga muatan kontainer penuh. Kami mengutamakan penanganan kargo yang aman dan mendukung pengiriman ke tujuan dengan baik, baik untuk rute domestik maupun internasional. Layanan angkutan laut kami didukung oleh mitra yang tepercaya.',
     'fcl' => 'Full Container Load (FCL)',
     'lcl' => 'Less Than Container Load (LCL)',
     'reefer_container' => 'Kontainer Reefer',
@@ -220,7 +221,7 @@ return [
     'ff_desc_3' => 'Tangki ISO: Pengangkutan kargo cair curah menggunakan ISO tank.',
     'ff_desc_4' => 'Layanan Angkutan Udara: Transportasi cepat untuk kargo yang mendesak.',
 
-    'domestic_forwarding_description_1' => 'Ekspedisi nasional mengacu pada perencanaan, koordinasi, dan pelaksanaan transportasi kargo di dalam satu negara. Berbeda dengan ekspedisi internasional internasional yang melibatkan prosedur kepabeanan, regulasi lintas batas, dan logistik luar negeri, ekspedisi nasional berfokus pada pergerakan barang melalui jaringan lokal dan regional.',
+    'domestic_forwarding_description_1' => 'Ekspedisi nasional mengacu pada perencanaan, koordinasi, dan pelaksanaan transportasi kargo di dalam satu negara. Berbeda dengan ekspedisi internasional yang melibatkan prosedur kepabeanan, regulasi lintas batas, dan logistik luar negeri, ekspedisi nasional berfokus pada pergerakan barang melalui jaringan lokal dan regional.',
     'domestic_forwarding_description_2' => 'Salah satu keunggulan utamanya adalah efisiensi dari sisi waktu dan biaya. Pengiriman domestik umumnya lebih cepat dan lebih ekonomis dibandingkan transit internasional. Layanan ini dapat dijalankan melalui transportasi darat, kereta api, laut, atau udara, tergantung pada kebutuhan kargo, lead time, dan pertimbangan anggaran.',
     'domestic_forwarding_description_3' => 'Ekspedisi nasional juga dapat menjadi bagian dari layanan logistik yang terintegrasi. Layanan ini dapat mencakup asuransi kargo, pergudangan, dan penanganan persediaan untuk mendukung pergerakan barang di dalam wilayah nasional.',
 
