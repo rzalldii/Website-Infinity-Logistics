@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 use Spatie\Honeypot\ProtectAgainstSpam;
-
 use App\Http\Controllers\MaintenanceController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ContactController;
+
+Route::view('/', 'sections.index')->name('home');
 
 Route::post('/send-email', [ContactController::class, 'send'])
     ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
@@ -15,9 +15,9 @@ Route::post('/send-email', [ContactController::class, 'send'])
 Route::post('/language/switch', [LanguageController::class, 'switch'])
     ->name('language.switch');
 
-Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear']);
+Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear'])
+    ->middleware('throttle:5,1');
 
-Route::view('/', 'sections.index')->name('home');
 Route::view('/about', 'sections.about')->name('about');
 Route::view('/services', 'sections.services')->name('services');
 Route::view('/news', 'sections.news')->name('news');

@@ -8,7 +8,10 @@ class MaintenanceController extends Controller
 {
     public function clear(string $token)
     {
-        abort_unless($token === 'INF-01', 403);
+        abort_unless(
+            hash_equals((string) config('app.maintenance_clear_token'), $token),
+            403
+        );
 
         $commands = [
             'optimize:clear',
