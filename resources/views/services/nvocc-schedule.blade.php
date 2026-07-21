@@ -11,7 +11,7 @@
                     <a href="{{ route('nvocc') }}" class="more-details-btn me-3" aria-label="NVOCC">
                         <i class="bi bi-arrow-left"></i>
                     </a>
-                    <h1 class="mb-0" x-text="translations.messages.nvocc_schedule"></h1>
+                    <h2 class="mb-0" x-text="translations.messages.nvocc_schedule"></h2>
                 </div>
             </div>
         </div>

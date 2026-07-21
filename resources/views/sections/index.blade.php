@@ -267,90 +267,294 @@
                 <h2 x-text="translations.messages.clients_title"></h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-                        { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }, "breakpoints": { "320": { "slidesPerView": 2, "spaceBetween": 40 }, "480": { "slidesPerView": 3, "spaceBetween": 60 }, "640": { "slidesPerView": 4, "spaceBetween": 80 }, "992": { "slidesPerView": 6, "spaceBetween": 120 } } }
-                    </script>
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-1.webp') }}" class="img-fluid"
-                                alt="MEGA HARAPAN SUKSES" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-2.webp') }}" class="img-fluid"
-                                alt="AJINOMOTO INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-3.webp') }}" class="img-fluid"
-                                alt="AGROMINA WICAKSANA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-4.webp') }}" class="img-fluid"
-                                alt="ANTAMAS" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-5.webp') }}" class="img-fluid"
-                                alt="ASAHIMAS FLAT GLASS" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-6.webp') }}" class="img-fluid"
-                                alt="BONANZA MEGAH" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-7.webp') }}" class="img-fluid"
-                                alt="CITRA NUTRINDO LANGGENG" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-8.webp') }}" class="img-fluid"
-                                alt="COMEXTRA MAJORA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-9.webp') }}" class="img-fluid"
-                                alt="DELTA HIJAU ABADI" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-10.webp') }}" class="img-fluid"
-                                alt="DUNIA KIMIA JAYA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-11.webp') }}" class="img-fluid"
-                                alt="ECOOILS JAYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-12.webp') }}" class="img-fluid"
-                                alt="GAPURA MAS LESTARI" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-13.webp') }}" class="img-fluid"
-                                alt="GUDANG GARAM" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-14.webp') }}" class="img-fluid"
-                                alt="GUNTNER INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-15.webp') }}" class="img-fluid"
-                                alt="INDO OIL PERKASA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-16.webp') }}" class="img-fluid"
-                                alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-17.webp') }}" class="img-fluid"
-                                alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-18.webp') }}" class="img-fluid"
-                                alt="KIRANA MEGATARA" loading="lazy"></div>
+                <div class="d-flex flex-column">
+                    <div class="marquee marquee-left w-100 d-flex align-items-center overflow-hidden">
+                        <div class="marquee-content d-flex align-items-center">
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-1.webp') }}" class="img-fluid"
+                                    alt="MEGA HARAPAN SUKSES">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-2.webp') }}" class="img-fluid"
+                                    alt="AJINOMOTO INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-3.webp') }}" class="img-fluid"
+                                    alt="AGROMINA WICAKSANA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-4.webp') }}" class="img-fluid" alt="ANTAMAS">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-5.webp') }}" class="img-fluid"
+                                    alt="ASAHIMAS FLAT GLASS">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-6.webp') }}" class="img-fluid" alt="BONANZA MEGAH">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-7.webp') }}" class="img-fluid"
+                                    alt="CITRA NUTRINDO LANGGENG">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-8.webp') }}" class="img-fluid"
+                                    alt="COMEXTRA MAJORA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-9.webp') }}" class="img-fluid"
+                                    alt="DELTA HIJAU ABADI">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-10.webp') }}" class="img-fluid"
+                                    alt="DUNIA KIMIA JAYA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-11.webp') }}" class="img-fluid"
+                                    alt="ECOOILS JAYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-12.webp') }}" class="img-fluid"
+                                    alt="GAPURA MAS LESTARI">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-13.webp') }}" class="img-fluid" alt="GUDANG GARAM">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-14.webp') }}" class="img-fluid"
+                                    alt="GUNTNER INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-15.webp') }}" class="img-fluid"
+                                    alt="INDO OIL PERKASA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-16.webp') }}" class="img-fluid"
+                                    alt="INDOKEMIKA JAYATAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-17.webp') }}" class="img-fluid"
+                                    alt="KEMIRA CHEMICALS INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-18.webp') }}" class="img-fluid"
+                                    alt="KIRANA MEGATARA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-1.webp') }}" class="img-fluid"
+                                    alt="MEGA HARAPAN SUKSES">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-2.webp') }}" class="img-fluid"
+                                    alt="AJINOMOTO INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-3.webp') }}" class="img-fluid"
+                                    alt="AGROMINA WICAKSANA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-4.webp') }}" class="img-fluid" alt="ANTAMAS">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-5.webp') }}" class="img-fluid"
+                                    alt="ASAHIMAS FLAT GLASS">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-6.webp') }}" class="img-fluid" alt="BONANZA MEGAH">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-7.webp') }}" class="img-fluid"
+                                    alt="CITRA NUTRINDO LANGGENG">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-8.webp') }}" class="img-fluid"
+                                    alt="COMEXTRA MAJORA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-9.webp') }}" class="img-fluid"
+                                    alt="DELTA HIJAU ABADI">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-10.webp') }}" class="img-fluid"
+                                    alt="DUNIA KIMIA JAYA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-11.webp') }}" class="img-fluid"
+                                    alt="ECOOILS JAYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-12.webp') }}" class="img-fluid"
+                                    alt="GAPURA MAS LESTARI">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-13.webp') }}" class="img-fluid" alt="GUDANG GARAM">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-14.webp') }}" class="img-fluid"
+                                    alt="GUNTNER INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-15.webp') }}" class="img-fluid"
+                                    alt="INDO OIL PERKASA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-16.webp') }}" class="img-fluid"
+                                    alt="INDOKEMIKA JAYATAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-17.webp') }}" class="img-fluid"
+                                    alt="KEMIRA CHEMICALS INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-18.webp') }}" class="img-fluid"
+                                    alt="KIRANA MEGATARA">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="swiper init-swiper" dir="rtl">
-                    <script type="application/json" class="swiper-config">
-                        { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }, "breakpoints": { "320": { "slidesPerView": 2, "spaceBetween": 40 }, "480": { "slidesPerView": 3, "spaceBetween": 60 }, "640": { "slidesPerView": 4, "spaceBetween": 80 }, "992": { "slidesPerView": 6, "spaceBetween": 120 } }, "rtl": true }
-                    </script>
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-19.webp') }}" class="img-fluid"
-                                alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-20.webp') }}" class="img-fluid"
-                                alt="LOUISIANA FAR EAST" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-21.webp') }}" class="img-fluid"
-                                alt="MEGA SURYA ERATAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-22.webp') }}" class="img-fluid"
-                                alt="MITRA FINEX ANTARNUSA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-23.webp') }}" class="img-fluid"
-                                alt="NYLEX INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-24.webp') }}" class="img-fluid"
-                                alt="OMYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-25.webp') }}" class="img-fluid"
-                                alt="PRIMA BERSAUDARA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-26.webp') }}" class="img-fluid"
-                                alt="PROTAS MALANG INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-27.webp') }}" class="img-fluid"
-                                alt="PUTERA RACKINDO SEJAHTERA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-28.webp') }}" class="img-fluid"
-                                alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-29.webp') }}" class="img-fluid"
-                                alt="SEMESTA AGRO TANI INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-30.webp') }}" class="img-fluid"
-                                alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-31.webp') }}" class="img-fluid"
-                                alt="SORINI AGRO ASIA CORPORINDO" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-32.webp') }}" class="img-fluid"
-                                alt="SUMBER ANUGERAH UTAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-33.webp') }}" class="img-fluid"
-                                alt="SURYA TRIMEGAH WISESA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-34.webp') }}" class="img-fluid"
-                                alt="TIGA RASA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-35.webp') }}" class="img-fluid"
-                                alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-36.webp') }}" class="img-fluid"
-                                alt="XINYI GLASS" loading="lazy"></div>
+                    <div class="marquee marquee-right w-100 d-flex align-items-center overflow-hidden">
+                        <div class="marquee-content d-flex align-items-center">
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-19.webp') }}" class="img-fluid"
+                                    alt="LOKA REFRACTORIES WIRA JATIM">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-20.webp') }}" class="img-fluid"
+                                    alt="LOUISIANA FAR EAST">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-21.webp') }}" class="img-fluid"
+                                    alt="MEGA SURYA ERATAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-22.webp') }}" class="img-fluid"
+                                    alt="MITRA FINEX ANTARNUSA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-23.webp') }}" class="img-fluid"
+                                    alt="NYLEX INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-24.webp') }}" class="img-fluid"
+                                    alt="OMYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-25.webp') }}" class="img-fluid"
+                                    alt="PRIMA BERSAUDARA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-26.webp') }}" class="img-fluid"
+                                    alt="PROTAS MALANG INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-27.webp') }}" class="img-fluid"
+                                    alt="PUTERA RACKINDO SEJAHTERA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-28.webp') }}" class="img-fluid"
+                                    alt="SAHATI HAMPARAN TANGGUH">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-29.webp') }}" class="img-fluid"
+                                    alt="SEMESTA AGRO TANI INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-30.webp') }}" class="img-fluid"
+                                    alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-31.webp') }}" class="img-fluid"
+                                    alt="SORINI AGRO ASIA CORPORINDO">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-32.webp') }}" class="img-fluid"
+                                    alt="SUMBER ANUGERAH UTAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-33.webp') }}" class="img-fluid"
+                                    alt="SURYA TRIMEGAH WISESA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-34.webp') }}" class="img-fluid"
+                                    alt="TIGA RASA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-35.webp') }}" class="img-fluid"
+                                    alt="WILMAR CAHAYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-36.webp') }}" class="img-fluid" alt="XINYI GLASS">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-19.webp') }}" class="img-fluid"
+                                    alt="LOKA REFRACTORIES WIRA JATIM">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-20.webp') }}" class="img-fluid"
+                                    alt="LOUISIANA FAR EAST">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-21.webp') }}" class="img-fluid"
+                                    alt="MEGA SURYA ERATAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-22.webp') }}" class="img-fluid"
+                                    alt="MITRA FINEX ANTARNUSA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-23.webp') }}" class="img-fluid"
+                                    alt="NYLEX INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-24.webp') }}" class="img-fluid"
+                                    alt="OMYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-25.webp') }}" class="img-fluid"
+                                    alt="PRIMA BERSAUDARA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-26.webp') }}" class="img-fluid"
+                                    alt="PROTAS MALANG INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-27.webp') }}" class="img-fluid"
+                                    alt="PUTERA RACKINDO SEJAHTERA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-28.webp') }}" class="img-fluid"
+                                    alt="SAHATI HAMPARAN TANGGUH">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-29.webp') }}" class="img-fluid"
+                                    alt="SEMESTA AGRO TANI INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-30.webp') }}" class="img-fluid"
+                                    alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-31.webp') }}" class="img-fluid"
+                                    alt="SORINI AGRO ASIA CORPORINDO">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-32.webp') }}" class="img-fluid"
+                                    alt="SUMBER ANUGERAH UTAMA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-33.webp') }}" class="img-fluid"
+                                    alt="SURYA TRIMEGAH WISESA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-34.webp') }}" class="img-fluid"
+                                    alt="TIGA RASA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-35.webp') }}" class="img-fluid"
+                                    alt="WILMAR CAHAYA INDONESIA">
+                            </div>
+                            <div class="marquee-tag hstack justify-content-center">
+                                <img src="{{ asset('img/clients/clients-36.webp') }}" class="img-fluid" alt="XINYI GLASS">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@
                     <a href="{{ route('flexitank-flexibag') }}" class="more-details-btn me-3" aria-label="Flexitank">
                         <i class="bi bi-arrow-left"></i>
                     </a>
-                    <h1 class="mb-0" x-text="translations.messages.flexitank_flexibag_details"></h1>
+                    <h2 class="mb-0" x-text="translations.messages.flexitank_flexibag_details"></h2>
                 </div>
             </div>
         </div>

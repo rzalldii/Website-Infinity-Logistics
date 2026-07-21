@@ -7,7 +7,7 @@
         <!-- Page Title -->
         <div class="page-title">
             <div class="container d-lg-flex justify-content-between align-items-center">
-                <h1 class="mb-2 mb-lg-0" x-text="translations.messages.freight_forwarding"></h1>
+                <h2 class="mb-2 mb-lg-0" x-text="translations.messages.freight_forwarding"></h2>
                 <nav class="breadcrumbs">
                     <ol>
                         <li><a href="{{ route('services') }}" x-text="translations.messages.services"></a></li>
