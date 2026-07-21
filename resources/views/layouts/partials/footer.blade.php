@@ -44,7 +44,6 @@
                             x-text="translations.messages.about"></a></li>
                     <li><i class="bi bi-chevron-right"></i><a href="{{ route('services') }}"
                             x-text="translations.messages.services"></a></li>
-                    <!-- <li><i class="bi bi-chevron-right"></i><a href="{{ route('news') }}" x-text="translations.messages.news"></a></li> -->
                     <li><i class="bi bi-chevron-right"></i><a href="{{ route('contact') }}"
                             x-text="translations.messages.contact"></a></li>
                 </ul>
@@ -54,14 +53,12 @@
                 <p x-text="translations.messages.follow_desc"></p>
                 <div class="social-links d-flex">
                     <a href="https://www.linkedin.com/company/infinity-logistics-and-transport" class="linkedin"
-                        aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook"
-                        aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/infinitysurabaya.id/" class="instagram" aria-label="Instagram"><i
-                            class="bi bi-instagram"></i></a>
-                    <!-- <a href="https://www.tiktok.com/" class="tiktok" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-                        <a href="https://x.com/" class="twitter-x" aria-label="TwitterX"><i class="bi bi-twitter-x"></i></a>
-                        <a href="https://www.youtube.com/" class="youtube" aria-label="YouTube"><i class="bi bi-youtube"></i></a> -->
+                        target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                            class="bi bi-linkedin"></i></a>
+                    <a href="https://www.facebook.com/infinitylogisticsandtransport" class="facebook" target="_blank"
+                        rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/infinitysurabaya.id/" class="instagram" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -78,13 +75,13 @@
             </div>
             <div class="copyright-content">
                 <p>
-                    <span>Copyright </span>
-                    ©<span> {{ date('Y') }}</span>
+                    <span>&copy; </span>
+                    <span> {{ date('Y') }}</span>
                     <strong class="px-1 sitename">PT. INFINITY LOGISTICS INDONESIA</strong>
                     <span>All Rights Reserved.</span>
                 </p>
                 <div class="credits">
-                    Designed and Developed with ❤ by IT Infinity
+                    Designed and Developed with <i class="bi bi-heart-fill"></i> by IT Infinity
                 </div>
             </div>
             <div class="copyright-spacer"></div>

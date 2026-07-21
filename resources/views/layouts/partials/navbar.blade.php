@@ -1,7 +1,7 @@
 <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
         <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto">
-            <img src="<?php echo url('/'); ?>/img/logo.webp" width="36" height="36" alt="Logo Infinity" loading="lazy">
+            <img src="{{ asset('img/logo.webp') }}" width="36" height="36" alt="Logo Infinity">
             <h1 class="sitename">Infinity Logistics Indonesia</h1>
         </a>
         <nav id="navmenu" class="navmenu">
@@ -37,11 +37,9 @@
                                 x-text="translations.messages.customs_clearance"></a></li>
                     </ul>
                 </li>
-                <!-- <li><a href="{{ route('news') }}" x-text="translations.messages.news"></a></li> -->
                 <li><a href="{{ route('contact') }}" x-text="translations.messages.contact"></a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        <!-- <a class="btn-getstarted" href="{{ route('contact') }}" x-text="translations.messages.get_quote"></a> -->
     </div>
 </header>

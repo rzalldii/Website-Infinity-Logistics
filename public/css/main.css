@@ -1,14 +1,14 @@
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Ubuntu",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Ubuntu", sans-serif;
 }
 
 :root {
   --color-primary: #042470;
 }
 
-:root { 
+:root {
   --background-color: #FFFFFF;
   --default-color: #595959;
   --heading-color: #505968;
@@ -101,7 +101,8 @@ h6 {
 .more-details-btn:hover,
 .more-details-btn:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);;
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  ;
 }
 
 .pulsating-play-btn {
@@ -142,7 +143,8 @@ h6 {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid var(--contrast-color);;
+  border-left: 15px solid var(--contrast-color);
+  ;
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
@@ -158,7 +160,8 @@ h6 {
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid var(--contrast-color);;
+  border-left: 15px solid var(--contrast-color);
+  ;
   z-index: 200;
   animation: none;
   border-radius: 0;
@@ -677,10 +680,13 @@ h6 {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
- 50% {
+
+  50% {
     opacity: 0.6;
   }
 }
@@ -690,21 +696,21 @@ h6 {
     flex-direction: column;
     text-align: center;
   }
-    
+
   .footer .language-switcher {
     order: -1;
     margin-bottom: 15px;
   }
-    
+
   .footer .copyright-spacer {
     display: none;
   }
-    
+
   .footer .lang-toggle-btn {
     width: 70px;
     height: 32px;
   }
-    
+
   .footer .lang-option {
     font-size: 12px;
   }
@@ -781,6 +787,7 @@ h6 {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-15px);
   }
@@ -1027,7 +1034,8 @@ h6 {
 .page-title .more-details-btn:hover,
 .page-title .more-details-btn:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);;
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  ;
 }
 
 section,
@@ -1113,7 +1121,7 @@ section,
   align-items: center;
 }
 
-.hero h1 {
+.hero h2 {
   margin: 0;
   font-size: 44px;
   font-weight: 700;
@@ -1185,7 +1193,7 @@ section,
 }
 
 @media (max-width: 640px) {
-  .hero h1 {
+  .hero h2 {
     font-size: 28px;
     line-height: 36px;
   }
@@ -1404,7 +1412,7 @@ section,
   right: 0;
   left: calc(100% + 24px);
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 @media (max-width: 991.98px) {
@@ -1589,11 +1597,11 @@ section,
   margin-bottom: 0;
 }
 
-.news .primary{
+.news .primary {
   background-color: var(--accent-color);
 }
 
-.news .secondary{
+.news .secondary {
   background-color: var(--surface-color);
 }
 
@@ -1933,9 +1941,9 @@ section,
   box-shadow: none !important;
 }
 
-.contact .php-email-form .inputgroup :is(input:focus, input:valid) ~ label,
-.contact .php-email-form .inputgroup :is(select:focus, select:valid) ~ label,
-.contact .php-email-form .inputgroup :is(textarea:focus, textarea:valid) ~ label {
+.contact .php-email-form .inputgroup :is(input:focus, input:valid)~label,
+.contact .php-email-form .inputgroup :is(select:focus, select:valid)~label,
+.contact .php-email-form .inputgroup :is(textarea:focus, textarea:valid)~label {
   transform: translateY(-50%) scale(0.9);
   margin: 0;
   margin-left: 1.3em;
@@ -2234,7 +2242,8 @@ section,
 .service-details .more-details-btn:hover,
 .service-details .more-details-btn:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);;
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  ;
 }
 
 .service-details .service-details-slider {
@@ -2265,11 +2274,12 @@ section,
   background-color: var(--accent-color);
 }
 
-.nvocc-schedule h2{
+.nvocc-schedule h2 {
   font-family: var(--default-font);
 }
 
-.nvocc-schedule .table-bordered thead td, .table-bordered thead th {
+.nvocc-schedule .table-bordered thead td,
+.table-bordered thead th {
   border-bottom-width: 2px;
 }
 
@@ -2278,7 +2288,8 @@ section,
   border-bottom: 2px solid #dee2e6;
 }
 
-.nvocc-schedule .table-bordered td, .table-bordered th {
+.nvocc-schedule .table-bordered td,
+.table-bordered th {
   border: 1px solid #dee2e6;
 }
 
@@ -2313,11 +2324,13 @@ section,
   font-size: 14px;
 }
 
-.nvocc-schedule .table-bordered td, .table-bordered th {
+.nvocc-schedule .table-bordered td,
+.table-bordered th {
   border: 1px solid #DEE2E6;
 }
 
-.nvocc-schedule .table td, .table th {
+.nvocc-schedule .table td,
+.table th {
   padding: .75rem;
   vertical-align: top;
   border-top: 1px solid #DEE2E6;
@@ -2410,18 +2423,18 @@ section,
 }
 
 @media (max-width: 768px) {
-  .flexitank-details .flexitank-details-slider {  
+  .flexitank-details .flexitank-details-slider {
     width: 100%;
   }
 }
 
 .protect-details {
-  font-family: 'Arial', sans-serif;  
+  font-family: 'Arial', sans-serif;
   background-color: var(--background-color);
   border-radius: 8px;
   max-width: 800px;
   margin: 0 auto;
-    
+
 }
 
 .protect-details h1 {
@@ -2458,7 +2471,7 @@ section,
 }
 
 .protect-details p span {
-    font-weight: bold;
-    color: var(--accent-color);
-    transition: color 0.3s ease;
+  font-weight: bold;
+  color: var(--accent-color);
+  transition: color 0.3s ease;
 }

@@ -27,32 +27,20 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER1.webp"
+                                    <a href="{{ asset('img/flexitank details/MULTILAYER1.webp') }}"
                                         data-gallery="flexitank-flexibag-multilayer" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER1.webp"
+                                        <img src="{{ asset('img/flexitank details/MULTILAYER1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="MULTILAYER1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER2.webp"
+                                    <a href="{{ asset('img/flexitank details/MULTILAYER2.webp') }}"
                                         data-gallery="flexitank-flexibag-multilayer" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/MULTILAYER2.webp"
+                                        <img src="{{ asset('img/flexitank details/MULTILAYER2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="MULTILAYER2">
                                     </a>
                                 </div>
@@ -98,32 +86,20 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN1.webp"
+                                    <a href="{{ asset('img/flexitank details/PP WOVEN1.webp') }}"
                                         data-gallery="flexitank-flexibag-pp-woven" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN1.webp"
+                                        <img src="{{ asset('img/flexitank details/PP WOVEN1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="PP WOVEN1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN2.webp"
+                                    <a href="{{ asset('img/flexitank details/PP WOVEN2.webp') }}"
                                         data-gallery="flexitank-flexibag-pp-woven" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/PP WOVEN2.webp"
+                                        <img src="{{ asset('img/flexitank details/PP WOVEN2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="PP WOVEN2">
                                     </a>
                                 </div>
@@ -159,32 +135,20 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/VALVE1.webp"
+                                    <a href="{{ asset('img/flexitank details/VALVE1.webp') }}"
                                         data-gallery="flexitank-flexibag-valve" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE1.webp"
+                                        <img src="{{ asset('img/flexitank details/VALVE1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="VALVE1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/VALVE2.webp"
+                                    <a href="{{ asset('img/flexitank details/VALVE2.webp') }}"
                                         data-gallery="flexitank-flexibag-valve" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/VALVE2.webp"
+                                        <img src="{{ asset('img/flexitank details/VALVE2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="VALVE2">
                                     </a>
                                 </div>
@@ -220,39 +184,27 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD1.webp"
+                                    <a href="{{ asset('img/flexitank details/BULKHEAD1.webp') }}"
                                         data-gallery="flexitank-flexibag-bulkhead" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD1.webp"
+                                        <img src="{{ asset('img/flexitank details/BULKHEAD1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="BULKHEAD1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD2.webp"
+                                    <a href="{{ asset('img/flexitank details/BULKHEAD2.webp') }}"
                                         data-gallery="flexitank-flexibag-bulkhead" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD2.webp"
+                                        <img src="{{ asset('img/flexitank details/BULKHEAD2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="BULKHEAD2">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD3.webp"
+                                    <a href="{{ asset('img/flexitank details/BULKHEAD3.webp') }}"
                                         data-gallery="flexitank-flexibag-bulkhead" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/BULKHEAD3.webp"
+                                        <img src="{{ asset('img/flexitank details/BULKHEAD3.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="BULKHEAD3">
                                     </a>
                                 </div>
@@ -293,39 +245,27 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD1.webp"
+                                    <a href="{{ asset('img/flexitank details/HEATING PAD1.webp') }}"
                                         data-gallery="flexitank-flexibag-heating-pad" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD1.webp"
+                                        <img src="{{ asset('img/flexitank details/HEATING PAD1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEATING PAD1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD2.webp"
+                                    <a href="{{ asset('img/flexitank details/HEATING PAD2.webp') }}"
                                         data-gallery="flexitank-flexibag-heating-pad" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD2.webp"
+                                        <img src="{{ asset('img/flexitank details/HEATING PAD2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEATING PAD2">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD3.webp"
+                                    <a href="{{ asset('img/flexitank details/HEATING PAD3.webp') }}"
                                         data-gallery="flexitank-flexibag-heating-pad" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEATING PAD3.webp"
+                                        <img src="{{ asset('img/flexitank details/HEATING PAD3.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEATING PAD3">
                                     </a>
                                 </div>
@@ -351,39 +291,27 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER1.webp"
+                                    <a href="{{ asset('img/flexitank details/INSULATION LINER1.webp') }}"
                                         data-gallery="flexitank-flexibag-insulation-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER1.webp"
+                                        <img src="{{ asset('img/flexitank details/INSULATION LINER1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="INSULATION LINER1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER2.webp"
+                                    <a href="{{ asset('img/flexitank details/INSULATION LINER2.webp') }}"
                                         data-gallery="flexitank-flexibag-insulation-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER2.webp"
+                                        <img src="{{ asset('img/flexitank details/INSULATION LINER2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="INSULATION LINER2">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER3.webp"
+                                    <a href="{{ asset('img/flexitank details/INSULATION LINER3.webp') }}"
                                         data-gallery="flexitank-flexibag-insulation-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/INSULATION LINER3.webp"
+                                        <img src="{{ asset('img/flexitank details/INSULATION LINER3.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="INSULATION LINER3">
                                     </a>
                                 </div>
@@ -419,39 +347,27 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/TUB LINER1.webp"
+                                    <a href="{{ asset('img/flexitank details/TUB LINER1.webp') }}"
                                         data-gallery="flexitank-flexibag-tub-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER1.webp"
+                                        <img src="{{ asset('img/flexitank details/TUB LINER1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="TUB LINER1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/TUB LINER2.webp"
+                                    <a href="{{ asset('img/flexitank details/TUB LINER2.webp') }}"
                                         data-gallery="flexitank-flexibag-tub-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER2.webp"
+                                        <img src="{{ asset('img/flexitank details/TUB LINER2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="TUB LINER2">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/TUB LINER3.webp"
+                                    <a href="{{ asset('img/flexitank details/TUB LINER3.webp') }}"
                                         data-gallery="flexitank-flexibag-tub-liner" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/TUB LINER3.webp"
+                                        <img src="{{ asset('img/flexitank details/TUB LINER3.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="TUB LINER3">
                                     </a>
                                 </div>
@@ -487,39 +403,27 @@
                         <div
                             class="flexitank-details-slider swiper init-swiper col-lg-6 position-relative align-self-start">
                             <script type="application/json" class="swiper-config">
-                                {
-                                    "loop": true,
-                                    "speed": 600,
-                                    "autoplay": {
-                                        "delay": 5000
-                                    },
-                                    "slidesPerView": "auto",
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "type": "bullets",
-                                        "clickable": true
-                                    }
-                                }
+                                { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true } }
                             </script>
                             <div class="swiper-wrapper align-items-center">
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER1.webp"
+                                    <a href="{{ asset('img/flexitank details/HEAT EXCHANGER1.webp') }}"
                                         data-gallery="flexitank-flexibag-heat-exchanger" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER1.webp"
+                                        <img src="{{ asset('img/flexitank details/HEAT EXCHANGER1.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER1">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER2.webp"
+                                    <a href="{{ asset('img/flexitank details/HEAT EXCHANGER2.webp') }}"
                                         data-gallery="flexitank-flexibag-heat-exchanger" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER2.webp"
+                                        <img src="{{ asset('img/flexitank details/HEAT EXCHANGER2.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER2">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER3.webp"
+                                    <a href="{{ asset('img/flexitank details/HEAT EXCHANGER3.webp') }}"
                                         data-gallery="flexitank-flexibag-heat-exchanger" class="glightbox preview-link">
-                                        <img src="<?php echo url('/'); ?>/img/flexitank details/HEAT EXCHANGER3.webp"
+                                        <img src="{{ asset('img/flexitank details/HEAT EXCHANGER3.webp') }}"
                                             class="img-fluid rounded services-img-swipe" alt="HEAT EXCHANGER3">
                                     </a>
                                 </div>
@@ -553,75 +457,75 @@
                         <div class="marquee w-100 d-flex align-items-center overflow-hidden">
                             <div class="marquee-content d-flex align-items-center">
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-1.webp') }}" class="img-fluid"
                                         alt="FSSC 22000">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-2.webp') }}" class="img-fluid"
                                         alt="ISO 22000">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-3.webp') }}" class="img-fluid"
                                         alt="ISO 14001">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-4.webp') }}" class="img-fluid"
                                         alt="ISO 9001">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-5.webp') }}" class="img-fluid"
                                         alt="HACCP">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-6.webp') }}" class="img-fluid"
                                         alt="SUCI PURE HALAL IFRC">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-7.webp') }}" class="img-fluid"
                                         alt="GMP FDA">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-8.webp') }}" class="img-fluid"
                                         alt="KLBD">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-9.webp') }}" class="img-fluid"
                                         alt="COA">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-1.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-1.webp') }}" class="img-fluid"
                                         alt="FSSC 22000">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-2.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-2.webp') }}" class="img-fluid"
                                         alt="ISO 22000">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-3.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-3.webp') }}" class="img-fluid"
                                         alt="ISO 14001">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-4.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-4.webp') }}" class="img-fluid"
                                         alt="ISO 9001">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-5.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-5.webp') }}" class="img-fluid"
                                         alt="HACCP">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-6.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-6.webp') }}" class="img-fluid"
                                         alt="SUCI PURE HALAL IFRC">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-7.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-7.webp') }}" class="img-fluid"
                                         alt="GMP FDA">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-8.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-8.webp') }}" class="img-fluid"
                                         alt="KLBD">
                                 </div>
                                 <div class="marquee-tag hstack justify-content-center">
-                                    <img src="<?php echo url('/'); ?>/img/certificates/certificate-9.webp" class="img-fluid"
+                                    <img src="{{ asset('img/certificates/certificate-9.webp') }}" class="img-fluid"
                                         alt="COA">
                                 </div>
                             </div>

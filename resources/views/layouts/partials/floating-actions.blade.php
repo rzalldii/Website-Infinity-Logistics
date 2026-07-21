@@ -13,7 +13,7 @@
         </div>
         <div class="wa-popup-agents">
             <a :href="'https://wa.me/628113299943?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
-                class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                class="wa-agent" target="_blank" rel="noopener">
                 <div class="wa-agent-info">
                     <span>FREIGHT FORWARDING</span>
                 </div>
@@ -34,14 +34,14 @@
                 <i class="bi bi-whatsapp"></i>
             </a>
             <a :href="'https://wa.me/6281999198916?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
-                class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                class="wa-agent" target="_blank" rel="noopener">
                 <div class="wa-agent-info">
                     <span>FLEXITANK</span>
                 </div>
                 <i class="bi bi-whatsapp"></i>
             </a>
             <a :href="'https://wa.me/6281216882027?text=' + encodeURIComponent('Hi, I\'m interested in your services. (via website)')"
-                class="wa-agent" target="_blank" rel="noopener" aria-label="WhatsApp">
+                class="wa-agent" target="_blank" rel="noopener">
                 <div class="wa-agent-info">
                     <span>WAREHOUSE</span>
                 </div>

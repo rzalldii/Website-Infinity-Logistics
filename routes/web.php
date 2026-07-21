@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use Spatie\Honeypot\ProtectAgainstSpam;
-use App\Http\Controllers\MaintenanceController;
-use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\MaintenanceController;
 
 Route::view('/', 'sections.index')->name('home');
 
@@ -20,7 +20,6 @@ Route::get('/maintenance/{token}', [MaintenanceController::class, 'clear'])
 
 Route::view('/about', 'sections.about')->name('about');
 Route::view('/services', 'sections.services')->name('services');
-Route::view('/news', 'sections.news')->name('news');
 Route::view('/contact', 'sections.contact')->name('contact');
 Route::view('/nvocc', 'services.nvocc')->name('nvocc');
 Route::view('/nvocc-schedule', 'services.nvocc-schedule')->name('nvocc-schedule');

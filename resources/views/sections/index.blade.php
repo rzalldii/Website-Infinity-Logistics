@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-                        <h1 x-text="translations.messages.hero_title"></h1>
+                        <h2 x-text="translations.messages.hero_title"></h2>
                         <p x-text="translations.messages.hero_subtitle"></p>
                         <div class="d-flex">
                             <a href="/#about" class="btn-get-started" x-text="translations.messages.get_started"></a>
@@ -20,8 +20,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-                        <img src="<?php echo url('/'); ?>/img/hero-img.webp" alt="Container Infinity"
-                            class="img-fluid animated" fetchpriority="high" />
+                        <img src="{{ asset('img/hero-img.webp') }}" alt="Container Infinity" class="img-fluid animated"
+                            fetchpriority="high" />
                     </div>
                 </div>
             </div>
@@ -72,9 +72,7 @@
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                            <img src="<?php echo url('/'); ?>/img/about.webp" alt="About Infinity" class="img-fluid"
-                                loading="lazy">
-                            <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
+                            <img src="{{ asset('img/about.webp') }}" alt="About Infinity" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
                             <p x-text="translations.messages.about_description"></p>
@@ -149,7 +147,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/NVOCC.webp" alt="NVOCC" loading="lazy">
+                                <img src="{{ asset('img/icons/NVOCC.webp') }}" alt="NVOCC" loading="lazy">
                             </div>
                             <a href="{{ route('nvocc') }}" class="stretched-link">
                                 <h3 x-text="translations.messages.nvocc"></h3>
@@ -160,8 +158,8 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/FREIGHT FORWARDING.webp"
-                                    alt="FREIGHT FORWARDING" loading="lazy">
+                                <img src="{{ asset('img/icons/FREIGHT FORWARDING.webp') }}" alt="FREIGHT FORWARDING"
+                                    loading="lazy">
                             </div>
                             <a href="{{ route('freight-forwarding') }}" class="stretched-link">
                                 <h3 x-text="translations.messages.freight_forwarding"></h3>
@@ -172,8 +170,8 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/DOMESTIC FORWARDING.webp"
-                                    alt="DOMESTIC FORWARDING" loading="lazy">
+                                <img src="{{ asset('img/icons/DOMESTIC FORWARDING.webp') }}" alt="DOMESTIC FORWARDING"
+                                    loading="lazy">
                             </div>
                             <a href="{{ route('domestic-forwarding') }}" class="stretched-link">
                                 <h3 x-text="translations.messages.domestic_forwarding"></h3>
@@ -184,8 +182,8 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/FLEXITANK FLEXIBAG.webp"
-                                    alt="FLEXITANK FLEXIBAG" loading="lazy">
+                                <img src="{{ asset('img/icons/FLEXITANK FLEXIBAG.webp') }}" alt="FLEXITANK FLEXIBAG"
+                                    loading="lazy">
                             </div>
                             <a href="{{ route('flexitank-flexibag') }}" class="stretched-link">
                                 <h3 x-text="translations.messages.flexitank_flexibag"></h3>
@@ -196,7 +194,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/PROJECT LOGISTICS.webp" alt="PROJECT LOGISTICS"
+                                <img src="{{ asset('img/icons/PROJECT LOGISTICS.webp') }}" alt="PROJECT LOGISTICS"
                                     loading="lazy">
                             </div>
                             <a href="{{ route('project-logistics') }}" class="stretched-link">
@@ -208,7 +206,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                         <div class="service-item position-relative">
                             <div class="icon">
-                                <img src="<?php echo url('/'); ?>/img/icons/CUSTOMS CLEARANCE.webp" alt="CUSTOMS CLEARANCE"
+                                <img src="{{ asset('img/icons/CUSTOMS CLEARANCE.webp') }}" alt="CUSTOMS CLEARANCE"
                                     loading="lazy">
                             </div>
                             <a href="{{ route('customs-clearance') }}" class="stretched-link">
@@ -225,48 +223,6 @@
             </div>
         </section>
         <!-- /Services Section -->
-        <!-- News Section -->
-        <!-- <section id="news" class="news section">
-                <div class="container section-title" data-aos="fade-up">
-                    <span>Our News</span>
-                    <h2>News</h2>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="<?php echo url('/'); ?>/img/news/news-1.jpg" alt="">
-                                <div class="position-absolute primary d-flex flex-column align-items-center justify-content-center rounded-circle"
-                                    style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
-                                    <h4 class="font-weight-bold mb-n1">01</h4>
-                                    <small class="text-white text-uppercase">Jan</small>
-                                </div>
-                            </div>
-                            <div class="secondary" style="padding: 30px;">
-                                <h4 class="font-weight-bold mb-3">Kasd tempor diam sea justo dolor</h4>
-                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
-                                <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
-                            <div class="position-relative">
-                                <img class="img-fluid w-100" src="<?php echo url('/'); ?>/img/news/news-2.jpg" alt="">
-                                <div class="position-absolute primary d-flex flex-column align-items-center justify-content-center rounded-circle"
-                                    style="width: 60px; height: 60px; bottom: -30px; right: 30px;">
-                                    <h4 class="font-weight-bold mb-n1">02</h4>
-                                    <small class="text-white text-uppercase">Jan</small>
-                                </div>
-                            </div>
-                            <div class="secondary" style="padding: 30px;">
-                                <h4 class="font-weight-bold mb-3">Kasd tempor diam sea justo dolor</h4>
-                                <p>Dolor sea ipsum ipsum et. Erat duo lorem magna vero dolor dolores. Rebum eirmod no dolor diam dolor amet ipsum. Lorem lorem sea sed diam est lorem magna</p>
-                                <a class="border-bottom border-primary text-uppercase text-decoration-none" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-        <!-- /News Section -->
         <!-- Call To Action Section -->
         <section id="call-to-action" class="call-to-action section accent-background">
             <div class="container">
@@ -292,8 +248,8 @@
                 <div class="row gy-5 justify-content-center">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
-                            <div class="pic"><img src="<?php echo url('/'); ?>/img/team.webp" class="img-fluid"
-                                    alt="Member Infinity" loading="lazy"></div>
+                            <div class="pic"><img src="{{ asset('img/team.webp') }}" class="img-fluid" alt="Member Infinity"
+                                    loading="lazy"></div>
                             <div class="member-info">
                                 <h3>Ayu Wulan Maya Sary</h3>
                                 <span x-text="translations.messages.director"></span>
@@ -313,149 +269,88 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper init-swiper">
                     <script type="application/json" class="swiper-config">
-                            {
-                                "loop": true,
-                                "speed": 600,
-                                "autoplay": {
-                                    "delay": 5000
-                                },
-                                "slidesPerView": "auto",
-                                "pagination": {
-                                    "el": ".swiper-pagination",
-                                    "type": "bullets",
-                                    "clickable": true
-                                },
-                                "breakpoints": {
-                                    "320": {
-                                    "slidesPerView": 2,
-                                    "spaceBetween": 40
-                                    },
-                                    "480": {
-                                    "slidesPerView": 3,
-                                    "spaceBetween": 60
-                                    },
-                                    "640": {
-                                    "slidesPerView": 4,
-                                    "spaceBetween": 80
-                                    },
-                                    "992": {
-                                    "slidesPerView": 6,
-                                    "spaceBetween": 120
-                                    }
-                                }
-                            }
-                        </script>
+                        { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }, "breakpoints": { "320": { "slidesPerView": 2, "spaceBetween": 40 }, "480": { "slidesPerView": 3, "spaceBetween": 60 }, "640": { "slidesPerView": 4, "spaceBetween": 80 }, "992": { "slidesPerView": 6, "spaceBetween": 120 } } }
+                    </script>
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-1.webp"
-                                class="img-fluid" alt="MEGA HARAPAN SUKSES" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-2.webp"
-                                class="img-fluid" alt="AJINOMOTO INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-3.webp"
-                                class="img-fluid" alt="AGROMINA WICAKSANA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-4.webp"
-                                class="img-fluid" alt="ANTAMAS" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-5.webp"
-                                class="img-fluid" alt="ASAHIMAS FLAT GLASS" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-6.webp"
-                                class="img-fluid" alt="BONANZA MEGAH" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-7.webp"
-                                class="img-fluid" alt="CITRA NUTRINDO LANGGENG" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-8.webp"
-                                class="img-fluid" alt="COMEXTRA MAJORA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-9.webp"
-                                class="img-fluid" alt="DELTA HIJAU ABADI" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-10.webp"
-                                class="img-fluid" alt="DUNIA KIMIA JAYA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-11.webp"
-                                class="img-fluid" alt="ECOOILS JAYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-12.webp"
-                                class="img-fluid" alt="GAPURA MAS LESTARI" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-13.webp"
-                                class="img-fluid" alt="GUDANG GARAM" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-14.webp"
-                                class="img-fluid" alt="GUNTNER INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-15.webp"
-                                class="img-fluid" alt="INDO OIL PERKASA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-16.webp"
-                                class="img-fluid" alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-17.webp"
-                                class="img-fluid" alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-18.webp"
-                                class="img-fluid" alt="KIRANA MEGATARA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-1.webp') }}" class="img-fluid"
+                                alt="MEGA HARAPAN SUKSES" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-2.webp') }}" class="img-fluid"
+                                alt="AJINOMOTO INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-3.webp') }}" class="img-fluid"
+                                alt="AGROMINA WICAKSANA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-4.webp') }}" class="img-fluid"
+                                alt="ANTAMAS" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-5.webp') }}" class="img-fluid"
+                                alt="ASAHIMAS FLAT GLASS" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-6.webp') }}" class="img-fluid"
+                                alt="BONANZA MEGAH" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-7.webp') }}" class="img-fluid"
+                                alt="CITRA NUTRINDO LANGGENG" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-8.webp') }}" class="img-fluid"
+                                alt="COMEXTRA MAJORA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-9.webp') }}" class="img-fluid"
+                                alt="DELTA HIJAU ABADI" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-10.webp') }}" class="img-fluid"
+                                alt="DUNIA KIMIA JAYA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-11.webp') }}" class="img-fluid"
+                                alt="ECOOILS JAYA INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-12.webp') }}" class="img-fluid"
+                                alt="GAPURA MAS LESTARI" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-13.webp') }}" class="img-fluid"
+                                alt="GUDANG GARAM" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-14.webp') }}" class="img-fluid"
+                                alt="GUNTNER INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-15.webp') }}" class="img-fluid"
+                                alt="INDO OIL PERKASA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-16.webp') }}" class="img-fluid"
+                                alt="INDOKEMIKA JAYATAMA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-17.webp') }}" class="img-fluid"
+                                alt="KEMIRA CHEMICALS INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-18.webp') }}" class="img-fluid"
+                                alt="KIRANA MEGATARA" loading="lazy"></div>
                     </div>
                 </div>
                 <div class="swiper init-swiper" dir="rtl">
                     <script type="application/json" class="swiper-config">
-                            {
-                                "loop": true,
-                                "speed": 600,
-                                "autoplay": {
-                                    "delay": 5000
-                                },
-                                "slidesPerView": "auto",
-                                "pagination": {
-                                    "el": ".swiper-pagination",
-                                    "type": "bullets",
-                                    "clickable": true
-                                },
-                                "breakpoints": {
-                                    "320": {
-                                        "slidesPerView": 2,
-                                        "spaceBetween": 40
-                                    },
-                                    "480": {
-                                        "slidesPerView": 3,
-                                        "spaceBetween": 60
-                                    },
-                                    "640": {
-                                        "slidesPerView": 4,
-                                        "spaceBetween": 80
-                                    },
-                                    "992": {
-                                        "slidesPerView": 6,
-                                        "spaceBetween": 120
-                                    }
-                                },
-                                "rtl": true
-                            }
-                        </script>
+                        { "loop": true, "speed": 600, "autoplay": { "delay": 5000 }, "slidesPerView": "auto", "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }, "breakpoints": { "320": { "slidesPerView": 2, "spaceBetween": 40 }, "480": { "slidesPerView": 3, "spaceBetween": 60 }, "640": { "slidesPerView": 4, "spaceBetween": 80 }, "992": { "slidesPerView": 6, "spaceBetween": 120 } }, "rtl": true }
+                    </script>
                     <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-19.webp"
-                                class="img-fluid" alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-20.webp"
-                                class="img-fluid" alt="LOUISIANA FAR EAST" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-21.webp"
-                                class="img-fluid" alt="MEGA SURYA ERATAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-22.webp"
-                                class="img-fluid" alt="MITRA FINEX ANTARNUSA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-23.webp"
-                                class="img-fluid" alt="NYLEX INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-24.webp"
-                                class="img-fluid" alt="OMYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-25.webp"
-                                class="img-fluid" alt="PRIMA BERSAUDARA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-26.webp"
-                                class="img-fluid" alt="PROTAS MALANG INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-27.webp"
-                                class="img-fluid" alt="PUTERA RACKINDO SEJAHTERA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-28.webp"
-                                class="img-fluid" alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-29.webp"
-                                class="img-fluid" alt="SEMESTA AGRO TANI INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-30.webp"
-                                class="img-fluid" alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-31.webp"
-                                class="img-fluid" alt="SORINI AGRO ASIA CORPORINDO" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-32.webp"
-                                class="img-fluid" alt="SUMBER ANUGERAH UTAMA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-33.webp"
-                                class="img-fluid" alt="SURYA TRIMEGAH WISESA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-34.webp"
-                                class="img-fluid" alt="TIGA RASA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-35.webp"
-                                class="img-fluid" alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
-                        <div class="swiper-slide"><img src="<?php echo url('/'); ?>/img/clients/clients-36.webp"
-                                class="img-fluid" alt="XINYI GLASS" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-19.webp') }}" class="img-fluid"
+                                alt="LOKA REFRACTORIES WIRA JATIM" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-20.webp') }}" class="img-fluid"
+                                alt="LOUISIANA FAR EAST" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-21.webp') }}" class="img-fluid"
+                                alt="MEGA SURYA ERATAMA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-22.webp') }}" class="img-fluid"
+                                alt="MITRA FINEX ANTARNUSA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-23.webp') }}" class="img-fluid"
+                                alt="NYLEX INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-24.webp') }}" class="img-fluid"
+                                alt="OMYA INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-25.webp') }}" class="img-fluid"
+                                alt="PRIMA BERSAUDARA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-26.webp') }}" class="img-fluid"
+                                alt="PROTAS MALANG INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-27.webp') }}" class="img-fluid"
+                                alt="PUTERA RACKINDO SEJAHTERA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-28.webp') }}" class="img-fluid"
+                                alt="SAHATI HAMPARAN TANGGUH" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-29.webp') }}" class="img-fluid"
+                                alt="SEMESTA AGRO TANI INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-30.webp') }}" class="img-fluid"
+                                alt="SINAR MAS AGRO RESOURCES AND TECHNOLOGY" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-31.webp') }}" class="img-fluid"
+                                alt="SORINI AGRO ASIA CORPORINDO" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-32.webp') }}" class="img-fluid"
+                                alt="SUMBER ANUGERAH UTAMA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-33.webp') }}" class="img-fluid"
+                                alt="SURYA TRIMEGAH WISESA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-34.webp') }}" class="img-fluid"
+                                alt="TIGA RASA INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-35.webp') }}" class="img-fluid"
+                                alt="WILMAR CAHAYA INDONESIA" loading="lazy"></div>
+                        <div class="swiper-slide"><img src="{{ asset('img/clients/clients-36.webp') }}" class="img-fluid"
+                                alt="XINYI GLASS" loading="lazy"></div>
                     </div>
                 </div>
             </div>
@@ -465,7 +360,7 @@
         <section id="contact" class="contact section">
             <div class="container section-title" data-aos="fade-up">
                 <span x-text="translations.messages.contact_section"></span>
-                <h1 x-text="translations.messages.contact"></h1>
+                <h2 x-text="translations.messages.contact"></h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-4">

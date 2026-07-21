@@ -8,7 +8,7 @@
         <section id="contact" class="contact section">
             <div class="container section-title" data-aos="fade-up">
                 <span x-text="translations.messages.contact_section"></span>
-                <h1 x-text="translations.messages.contact"></h1>
+                <h2 x-text="translations.messages.contact"></h2>
             </div>
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-4">

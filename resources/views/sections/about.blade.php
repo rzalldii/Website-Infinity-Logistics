@@ -14,9 +14,7 @@
                 <div class="row align-items-center">
                     <div class="row gy-4">
                         <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-                            <img src="<?php echo url('/'); ?>/img/about.webp" alt="About Infinity" class="img-fluid"
-                                loading="lazy">
-                            <!-- <a href="https://www.youtube.com/watch?v=zx4s5h1Fats&ab_channel=MuhammadMohdAzam" class="glightbox pulsating-play-btn"></a> -->
+                            <img src="{{ asset('img/about.webp') }}" alt="About Infinity" class="img-fluid" loading="lazy">
                         </div>
                         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
                             <p x-text="translations.messages.about_description"></p>
@@ -82,8 +80,7 @@
             <div class="container" data-aos="fade-up">
                 <div class="row align-items-center">
                     <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                        <img src="<?php echo url('/'); ?>/img/feature.webp" alt="Feature Infinity" class="img-fluid"
-                            loading="lazy">
+                        <img src="{{ asset('img/feature.webp') }}" alt="Feature Infinity" class="img-fluid" loading="lazy">
                     </div>
                     <div class="col-lg-7 py-5 py-lg-0" data-aos="fade-up" data-aos-delay="200">
                         <h2 x-text="translations.messages.why_choose_us"></h2>
@@ -93,9 +90,8 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
                                 <div class="why-choose-us-items p-3">
                                     <div class="why-choose-us-items-details py-4 px-3">
-                                        <img class="align-self-center mb-3"
-                                            src="<?php echo url('/'); ?>/img/icons/GLOBAL.webp" alt="GLOBAL"
-                                            loading="lazy" />
+                                        <img class="align-self-center mb-3" src="{{ asset('img/icons/GLOBAL.webp') }}"
+                                            alt="GLOBAL" loading="lazy" />
                                         <p x-text="translations.messages.global_reach"></p>
                                     </div>
                                 </div>
@@ -103,9 +99,8 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="400">
                                 <div class="why-choose-us-items p-3">
                                     <div class="why-choose-us-items-details py-4 px-3">
-                                        <img class="align-self-center mb-3"
-                                            src="<?php echo url('/'); ?>/img/icons/END-TO-END.webp" alt="END-TO-END"
-                                            loading="lazy" />
+                                        <img class="align-self-center mb-3" src="{{ asset('img/icons/END-TO-END.webp') }}"
+                                            alt="END-TO-END" loading="lazy" />
                                         <p x-text="translations.messages.end_to_end_service"></p>
                                     </div>
                                 </div>
@@ -113,9 +108,8 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="500">
                                 <div class="why-choose-us-items p-3">
                                     <div class="why-choose-us-items-details py-4 px-3">
-                                        <img class="align-self-center mb-3"
-                                            src="<?php echo url('/'); ?>/img/icons/24-HOUR.webp" alt="24-HOUR"
-                                            loading="lazy" />
+                                        <img class="align-self-center mb-3" src="{{ asset('img/icons/24-HOUR.webp') }}"
+                                            alt="24-HOUR" loading="lazy" />
                                         <p x-text="translations.messages.hour_support"></p>
                                     </div>
                                 </div>
@@ -123,9 +117,8 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-delay="600">
                                 <div class="why-choose-us-items p-3">
                                     <div class="why-choose-us-items-details py-4 px-3">
-                                        <img class="align-self-center mb-3"
-                                            src="<?php echo url('/'); ?>/img/icons/SPECIALIZED.webp" alt="SPECIALIZED"
-                                            loading="lazy" />
+                                        <img class="align-self-center mb-3" src="{{ asset('img/icons/SPECIALIZED.webp') }}"
+                                            alt="SPECIALIZED" loading="lazy" />
                                         <p x-text="translations.messages.specialized_handling"></p>
                                     </div>
                                 </div>
@@ -151,7 +144,7 @@
                         <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative"
                             data-aos="fade-up" data-aos-delay="0">
                             <div data-aos="fade-right" data-aos-delay="300"><img class="arch-line"
-                                    src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
+                                    src="{{ asset('img/arch-line.svg') }}" alt="Arch Line"></div>
                             <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
                             <div>
                                 <h3 x-text="translations.messages.step_1_title"></h3>
@@ -163,7 +156,7 @@
                         <div
                             class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
                             <div data-aos="fade-right" data-aos-delay="700"><img class="arch-line reverse"
-                                    src="<?php echo url('/'); ?>/img/arch-line-reverse.svg" alt="Arch Line Reverse"></div>
+                                    src="{{ asset('img/arch-line-reverse.svg') }}" alt="Arch Line Reverse"></div>
                             <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
                             <h3 x-text="translations.messages.step_2_title"></h3>
                             <p x-text="translations.messages.step_2_description"></p>
@@ -172,7 +165,7 @@
                     <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="800">
                         <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
                             <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line"
-                                    src="<?php echo url('/'); ?>/img/arch-line.svg" alt="Arch Line"></div>
+                                    src="{{ asset('img/arch-line.svg') }}" alt="Arch Line"></div>
                             <span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
                             <h3 x-text="translations.messages.step_3_title"></h3>
                             <p x-text="translations.messages.step_3_description"></p>

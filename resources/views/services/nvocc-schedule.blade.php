@@ -16,10 +16,118 @@
             </div>
         </div>
         <!-- End Page Title -->
+
+        @php
+            $scheduleMonth = 'july';
+
+            $schedules = [
+                [
+                    'line' => 'GSL',
+                    'vessel' => 'INFERRO',
+                    'voyage' => '043 W',
+                    'open_stack' => ['time' => '15:00', 'day' => '26', 'month' => 'june'],
+                    'closing' => ['time' => '09:00', 'day' => '30', 'month' => 'june'],
+                    'eta_sur' => ['day' => '30', 'month' => 'june'],
+                    'etd_sur' => ['day' => '01', 'month' => 'july'],
+                    'eta_klang' => ['day' => '04', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'GSL',
+                    'vessel' => 'YM INTERACTION',
+                    'voyage' => '292 W',
+                    'open_stack' => ['time' => '15:00', 'day' => '28', 'month' => 'june'],
+                    'closing' => ['time' => '09:00', 'day' => '02', 'month' => 'july'],
+                    'eta_sur' => ['day' => '02', 'month' => 'july'],
+                    'etd_sur' => ['day' => '03', 'month' => 'july'],
+                    'eta_klang' => ['day' => '06', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'GSL',
+                    'vessel' => 'MTT SANDAKAN',
+                    'voyage' => '077 W',
+                    'open_stack' => ['time' => '15:00', 'day' => '10', 'month' => 'july'],
+                    'closing' => ['time' => '09:00', 'day' => '14', 'month' => 'july'],
+                    'eta_sur' => ['day' => '14', 'month' => 'july'],
+                    'etd_sur' => ['day' => '15', 'month' => 'july'],
+                    'eta_klang' => ['day' => '18', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'GSL',
+                    'vessel' => 'YM INTERACTION',
+                    'voyage' => '293 W',
+                    'open_stack' => ['time' => '15:00', 'day' => '17', 'month' => 'july'],
+                    'closing' => ['time' => '09:00', 'day' => '21', 'month' => 'july'],
+                    'eta_sur' => ['day' => '21', 'month' => 'july'],
+                    'etd_sur' => ['day' => '22', 'month' => 'july'],
+                    'eta_klang' => ['day' => '25', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'GSL',
+                    'vessel' => 'INFERRO',
+                    'voyage' => '044 W',
+                    'open_stack' => ['time' => '15:00', 'day' => '17', 'month' => 'july'],
+                    'closing' => ['time' => '09:00', 'day' => '21', 'month' => 'july'],
+                    'eta_sur' => ['day' => '21', 'month' => 'july'],
+                    'etd_sur' => ['day' => '22', 'month' => 'july'],
+                    'eta_klang' => ['day' => '25', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'COSCO',
+                    'vessel' => 'XIN YANG PU',
+                    'voyage' => '203 W',
+                    'open_stack' => ['time' => '08:00', 'day' => '26', 'month' => 'june'],
+                    'closing' => ['time' => '03:00', 'day' => '30', 'month' => 'june'],
+                    'eta_sur' => ['day' => '30', 'month' => 'june'],
+                    'etd_sur' => ['day' => '01', 'month' => 'july'],
+                    'eta_klang' => ['day' => '08', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'COSCO',
+                    'vessel' => 'HALLEY',
+                    'voyage' => '014 W',
+                    'open_stack' => ['time' => '08:00', 'day' => '06', 'month' => 'july'],
+                    'closing' => ['time' => '03:00', 'day' => '10', 'month' => 'july'],
+                    'eta_sur' => ['day' => '10', 'month' => 'july'],
+                    'etd_sur' => ['day' => '11', 'month' => 'july'],
+                    'eta_klang' => ['day' => '17', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'COSCO',
+                    'vessel' => 'XIN YANG PU',
+                    'voyage' => '204 W',
+                    'open_stack' => ['time' => '08:00', 'day' => '09', 'month' => 'july'],
+                    'closing' => ['time' => '03:00', 'day' => '13', 'month' => 'july'],
+                    'eta_sur' => ['day' => '13', 'month' => 'july'],
+                    'etd_sur' => ['day' => '14', 'month' => 'july'],
+                    'eta_klang' => ['day' => '20', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'COSCO',
+                    'vessel' => 'XIN HANG ZHOU',
+                    'voyage' => '216 W',
+                    'open_stack' => ['time' => '08:00', 'day' => '16', 'month' => 'july'],
+                    'closing' => ['time' => '03:00', 'day' => '20', 'month' => 'july'],
+                    'eta_sur' => ['day' => '20', 'month' => 'july'],
+                    'etd_sur' => ['day' => '21', 'month' => 'july'],
+                    'eta_klang' => ['day' => '27', 'month' => 'july'],
+                ],
+                [
+                    'line' => 'COSCO',
+                    'vessel' => 'CELSIUS EINDHOVEN',
+                    'voyage' => '033 W',
+                    'open_stack' => ['time' => '08:00', 'day' => '23', 'month' => 'july'],
+                    'closing' => ['time' => '03:00', 'day' => '27', 'month' => 'july'],
+                    'eta_sur' => ['day' => '27', 'month' => 'july'],
+                    'etd_sur' => ['day' => '28', 'month' => 'july'],
+                    'eta_klang' => ['day' => '03', 'month' => 'august'],
+                ],
+            ];
+        @endphp
+
         <!-- NVOCC Schedule Section -->
         <section id="nvocc-schedule" class="nvocc-schedule section">
             <div class="container section-title">
-                <h2 class="text-uppercase" x-text="translations.messages.july"></h2>
+                <h2 class="text-uppercase" x-text="translations.messages.{{ $scheduleMonth }}"></h2>
             </div>
             <div class="container">
                 <div class="table-responsive">
@@ -36,336 +144,52 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        INFERRO
-                                    </div>
-                                </td>
-                                <td class="align-middle">043 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        26 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        30 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">30 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">01 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">04 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        YM INTERACTION
-                                    </div>
-                                </td>
-                                <td class="align-middle">292 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        28 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        02 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">02 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">03 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">06 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        MTT SANDAKAN
-                                    </div>
-                                </td>
-                                <td class="align-middle">077 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        10 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        14 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">14 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">15 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">18 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        YM INTERACTION
-                                    </div>
-                                </td>
-                                <td class="align-middle">293 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        17 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        21 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">22 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">25 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        GSL
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        INFERRO
-                                    </div>
-                                </td>
-                                <td class="align-middle">044 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        15:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        17 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        09:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        21 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">22 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">25 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        XIN YANG PU
-                                    </div>
-                                </td>
-                                <td class="align-middle">203 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        26 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        30 <span x-text="translations.messages.june"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">30 <span x-text="translations.messages.june"></span></td>
-                                <td class="align-middle">01 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">08 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        HALLEY
-                                    </div>
-                                </td>
-                                <td class="align-middle">014 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        06 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        10 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">10 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">11 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">17 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        XIN YANG PU
-                                    </div>
-                                </td>
-                                <td class="align-middle">204 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        09 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        13 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">13 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">14 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">20 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        XIN HANG ZHOU
-                                    </div>
-                                </td>
-                                <td class="align-middle">216 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        16 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        20 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">20 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">21 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">27 <span x-text="translations.messages.july"></span></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        COSCO
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        CELSIUS EINDHOVEN
-                                    </div>
-                                </td>
-                                <td class="align-middle">033 W</td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        08:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        23 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td>
-                                    <span
-                                        class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
-                                        03:00
-                                    </span>
-                                    <div class="margin-10px-top font-size14">
-                                        27 <span x-text="translations.messages.july"></span>
-                                    </div>
-                                </td>
-                                <td class="align-middle">27 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">28 <span x-text="translations.messages.july"></span></td>
-                                <td class="align-middle">03 <span x-text="translations.messages.august"></span></td>
-                            </tr>
+                            @foreach ($schedules as $item)
+                                <tr>
+                                    <td>
+                                        <span
+                                            class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                            {{ $item['line'] }}
+                                        </span>
+                                        <div class="margin-10px-top font-size14">
+                                            {{ $item['vessel'] }}
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">{{ $item['voyage'] }}</td>
+                                    <td>
+                                        <span
+                                            class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                            {{ $item['open_stack']['time'] }}
+                                        </span>
+                                        <div class="margin-10px-top font-size14">
+                                            {{ $item['open_stack']['day'] }}
+                                            <span x-text="translations.messages.{{ $item['open_stack']['month'] }}"></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="bg padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">
+                                            {{ $item['closing']['time'] }}
+                                        </span>
+                                        <div class="margin-10px-top font-size14">
+                                            {{ $item['closing']['day'] }}
+                                            <span x-text="translations.messages.{{ $item['closing']['month'] }}"></span>
+                                        </div>
+                                    </td>
+                                    <td class="align-middle">
+                                        {{ $item['eta_sur']['day'] }}
+                                        <span x-text="translations.messages.{{ $item['eta_sur']['month'] }}"></span>
+                                    </td>
+                                    <td class="align-middle">
+                                        {{ $item['etd_sur']['day'] }}
+                                        <span x-text="translations.messages.{{ $item['etd_sur']['month'] }}"></span>
+                                    </td>
+                                    <td class="align-middle">
+                                        {{ $item['eta_klang']['day'] }}
+                                        <span x-text="translations.messages.{{ $item['eta_klang']['month'] }}"></span>
+                                    </td>
+                                </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

@@ -1,17 +1,16 @@
 <!-- Vendor JS Files -->
-<script src="<?php echo url('/'); ?>/vendor/alpinejs/cdn.min.js" defer></script>
-<script src="<?php echo url('/'); ?>/vendor/aos/js/aos.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/purecounterjs/purecounter_vanilla.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/sweetalert2/js/sweetalert2.all.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/swiper/js/swiper-bundle.min.js"></script>
-<script src="<?php echo url('/'); ?>/vendor/php-email-form/validate.js"></script>
-<!-- Main JS File -->
-<!-- <script src="<?php echo url('/'); ?>/js/main.js"></script> -->
-<script src="<?php echo url('/'); ?>/js/main.min.js"></script>
+<script src="{{ asset('vendor/alpinejs/cdn.min.js') }}" defer></script>
+<script src="{{ asset('vendor/aos/js/aos.js') }}"></script>
+<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ asset('vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('vendor/purecounterjs/purecounter_vanilla.js') }}"></script>
+<script src="{{ asset('vendor/sweetalert2/js/sweetalert2.all.min.js') }}"></script>
+<script src="{{ asset('vendor/swiper/js/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+
 <!-- Language Switcher Script -->
 <script>
     function languageSwitcher() {
