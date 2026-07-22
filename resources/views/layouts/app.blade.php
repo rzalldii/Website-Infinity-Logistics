@@ -11,7 +11,6 @@
     @include('layouts.partials.footer')
     @include('layouts.partials.floating-actions')
     @include('layouts.partials.script')
-    @stack('script')
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<!-- Vendor JS Files -->
+<!-- Scripts -->
 <script src="{{ asset('vendor/alpinejs/cdn.min.js') }}" defer></script>
 <script src="{{ asset('vendor/aos/js/aos.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -48,3 +48,5 @@
         }
     }
 </script>
+
+@stack('script')
