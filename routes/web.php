@@ -6,7 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\MaintenanceController;
 
-Route::view('/', 'sections.index')->name('home');
+Route::view('/', 'index')->name('home');
 
 Route::post('/send-email', [ContactController::class, 'send'])
     ->middleware(['throttle:1,3', ProtectAgainstSpam::class])
